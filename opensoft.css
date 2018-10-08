@@ -1,0 +1,60 @@
+ul{
+	list-style-type:none;
+        background-color: rgba(255,255,255,0.8);
+}
+li a{
+	display:block;
+	border:1px solid black;
+	text-decoration:none;
+	color:green;
+	padding:2%;
+}
+li a.active {
+    background-color:green;
+    color: white;
+}
+li a:hover:not(.active){
+	color:red;
+	background-color:grey;
+}
+#all{
+	background-image:url(bamboo-light.jpg);
+}
+h1{
+	height:60px;
+	background-color:blue;
+	color:white;
+	text-align:center;
+	font-size:300%;
+}
+#middle{
+	height:640px;
+	padding:5%;
+}
+#nav{
+	width:30%;
+	float:left;
+	margin:0px;
+}
+h2{
+	color:rgb(250,200,30);
+	font-size:300%;
+}
+h3{
+	font-size:200%;
+	color:rgb(250,100,100);
+}
+p{
+	color:white;
+	font-size:200%;
+}
+#content{
+	width:60%;
+	float:right;
+}
+footer{
+	height:50px;
+	background-color:blue;
+	margin:0;
+	text-align:center;
+}
