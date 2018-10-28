@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<head>
+	<title> Gallery </title>
+	<link rel="stylesheet" href="opensoft.css" >
+	<style>
+div.gallery {
+    border: 10px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 5px solid #777;
+    border-color:green;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.6);
+}
+
+* {
+    box-sizing: border-box;
+    
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+}
+
+
+</style>
+</head>
+<body>
+	<div id="all">
+	<div id="middle" style="height:1050px;">
+	<div id="content">
+		<h2 style =" text-align:center;"> Gallery </h2>
+	<div class="responsive" style="width:100%;">
+ 	 	<div class="gallery">
+		<a target="_blank" href="kgp.jpg">
+		<img src="kgp.jpg" alt="IIT-KGP" width=100% >
+		</a>
+		<div class="desc">My Institute</div>
+		</div>
+	</div>
+
+		<div class="responsive">
+ 	 		<div class="gallery">
+    	  		<a target="_blank" href="kgp.jpg">
+      	   		<img src="rk.jpeg" alt="RK HALL" >
+    			</a>
+    			<div class="desc">My home for the next 5 years!!</div>
+  			</div>
+		</div>
+
+  
+		<div class="responsive">
+ 	 		<div class="gallery">
+    	  		<a target="_blank" href="kgp.jpg">
+      	   		<img src="illu.jpg" alt="ILLU" >
+    			</a>
+    			<div class="desc">Our way of celebrating Diwali</div>
+  			</div>
+		</div>
+		<div class="responsive">
+ 	 		<div class="gallery">
+    	  		<a target="_blank" href="kgp.jpg">
+      	   		<img src="up1.png" alt="UP.AI" >
+    			</a>
+    			<div class="desc">A one of a kind AI summit hosted by IIT-KGP.</div>
+  			</div>
+		</div>
+		<div class="responsive">
+ 	 		<div class="gallery">
+    	  		<a target="_blank" href="kgp.jpg">
+      	   		<img src="nssc.jpeg" alt="NSSC IIT_KGP" height="180px;">
+    			</a>
+    			<div class="desc">The annual Space Technology fest organised by IIT-KGP.</div>
+  			</div>
+		</div>
+	</div>
+	<div id="nav">
+<ul>
+	<h3 style="text-align:center;">Navigation</h3>
+	<li><a href="index.html"> Home</a></li>
+	<li><a href="AboutMe.html" >About Me</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	<li><a href="Gallery.html">Gallery</a></li>
+</ul>
+	</div>
+
+	</div>
+	</div>
+
+	<footer>	
+		
+		<a href="https://www.facebook.com/nithin.krishna.338"><img src="images.png" alt="link to fb profile"/></a>
+		<a href="https://github.com/nithinkrishna49"><img src="download.png" alt="link to github"/></a>	
+	</footer>
+</body>
